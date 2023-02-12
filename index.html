@@ -1,13 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<script>
-	function isHidden(oDiv){
-      var vDiv = document.getElementById(oDiv);
-      vDiv.style.display = (vDiv.style.display == 'none')?'block':'none';
-    }
-</script></head>
-<body>
+
 
 
 <html>
@@ -355,8 +346,8 @@ Utah, (1992).</li>
 		    
 
 
-<div style="cursor:hand" οnclick="isHidden('div1')"><b>Past Semester</b></div>
-		<div id ="div1" style="display:none">	
+<a onclick="openShutManager(this,'box3',false)">Past Semester</a>
+                    <div id="box3" style="display: none">
 	
 	
 	
@@ -736,16 +727,15 @@ Utah, (1992).</li>
 	
 	<hr>
 
-	
-</div>
-</body></html>
+ </div>	
+
 
 
 	<p><i>Last updated: Feb 20, 2023.</i></p>
 
-	
+<script src="http://home.ustc.edu.cn/~xx352229/js/openit.js"></script>	
 </body>
 </html>
 
 
-<script src="http://home.ustc.edu.cn/~xx352229/js/openit.js"></script>
+
